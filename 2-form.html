@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 1 / Form</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-D5TzwAtA.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav"></nav>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="../">Home Page</a></li>
+        <li><a class="nav-link" href="../1-gallery.html">Gallery</a></li>
+        <li><a class="nav-link" href="../2-form.html">Form</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <form class="feedback-form" autocomplete="off">
+        <label class="form-label" for="email">
+          Email
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            title="Enter email for example: name@example.com"
+            autofocus
+          />
+        </label>
+
+        <label class="form-label" for="message">
+          Comment
+          <textarea class="form-message" name="message" rows="8"></textarea>
+        </label>
+
+        <button class="form-submit-btn" type="submit">Submit</button>
+      </form>
+    </main>
+
+  </body>
+</html>
