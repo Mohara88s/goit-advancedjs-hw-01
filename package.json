@@ -20,5 +20,9 @@
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohara88s/goit-advancedjs-hw-01.git"
   }
 }
